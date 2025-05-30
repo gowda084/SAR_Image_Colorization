@@ -26,6 +26,7 @@ SAR_image_pro/
 1. Clone the repo:
     git clone https://github.com/gowda084/SAR_Image_Colorization.git
    
+2.enter into the folder 
     cd SAR_image_pro
   
 3. Install Python dependencies:
