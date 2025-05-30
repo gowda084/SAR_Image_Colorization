@@ -1,4 +1,4 @@
-# SAR Image Processing and Colorization GAN
+# SAR Image Colorization for Comprehensive Insight 
 
 This project is a hybrid Python + Web application for processing and visualizing Synthetic Aperture Radar (SAR) images using a GAN-based colorization approach.
 
