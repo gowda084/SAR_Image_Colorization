@@ -1,73 +1,56 @@
-# Welcome to your Lovable project
+# SAR Image Processing and Colorization GAN
 
-## Project info
+This project is a hybrid Python + Web application for processing and visualizing Synthetic Aperture Radar (SAR) images using a GAN-based colorization approach.
 
-**URL**: https://lovable.dev/projects/4b1de2b1-416b-42ea-82a6-144fc3ae514b
+## 🚀 Features
 
-## How can I edit this code?
+- 🎨 **SAR Image Colorization** using a GAN-based deep learning model (`sar_colorization_gan.py`)
+- 🌐 **Modern Web UI** built with Tailwind CSS and Vite
+- 📷 Easy upload and preview of processed SAR images
+- ⚙️ Developer-friendly structure using TypeScript, PostCSS, and Vite
 
-There are several ways of editing your application.
+## 📁 Project Structure
 
-**Use Lovable**
+SAR_image_pro/
+├── index.html # Main HTML file
+├── sar_colorization_gan.py # GAN-based SAR image colorizer
+├── tailwind.config.ts # Tailwind CSS configuration
+├── package.json # Node.js dependencies
+├── vite.config.ts # Vite build configuration
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4b1de2b1-416b-42ea-82a6-144fc3ae514b) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Installation
 
-**Use your preferred IDE**
+### Backend (Python)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. Clone the repo:
+    git clone https://github.com/gowda084/SAR_Image_Colorization.git
+    cd SAR_image_pro
+  
+2. Install Python dependencies:
+    pip install -r requirements.txt  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+3. Run your SAR colorization script:
+    python sar_colorization_gan.py
 
-Follow these steps:
+### Frontend (Web Interface)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Install dependencies:
+    npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Start development server:
+    npm run dev
+   
+3. Open in browser: [http://localhost:5173](http://localhost:5173)
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📸 Sample Output
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+![image](https://github.com/user-attachments/assets/e5bbebe2-b3a3-433a-87d7-7271d05ea0da)
+![image](https://github.com/user-attachments/assets/6c230c25-31eb-4bd7-9cc2-aac6581d983a)
+![image](https://github.com/user-attachments/assets/ffe30893-256c-4f6e-85cb-4534fbc0952e)
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/4b1de2b1-416b-42ea-82a6-144fc3ae514b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
